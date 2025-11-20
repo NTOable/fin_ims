@@ -7,6 +7,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 // added
 import android.widget.*
+import java.sql.Connection
+import java.sql.DriverManager
+import java.sql.SQLException
 
 class back_activity_main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +23,10 @@ class back_activity_main : AppCompatActivity() {
         }
     }
 // added
+
+    fun conn {
+        val
+    }
 
     // each product will have its own row in their respective table (GPUs, Fans, SSDs, etc)
         // after connecting to MySQL, query to retrieve all items owned by User currently logged in
