@@ -24,8 +24,8 @@ class back_activity_main : AppCompatActivity() {
     }
 // added
 
-    fun conn {
-        val
+    fun conn() {
+
     }
 
     // each product will have its own row in their respective table (GPUs, Fans, SSDs, etc)
