@@ -1,0 +1,26 @@
+TABLES
+
+    User
+    user_id PK
+    username
+    password
+    company
+    position
+
+    Storage
+    storage_id PK
+    user_id FK User.user_id
+    product_id Product.product_id
+
+    Product
+    product_id PK
+    type_id FK Product_Type.type_id
+    storage_id FK Storage.storage_id
+    product_serial (for barcode) (main identifier)
+
+    Product_Type
+    type_id
+    type_name
+    type_brand
+    type_category
+    type_specs
