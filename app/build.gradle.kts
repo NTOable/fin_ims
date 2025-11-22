@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id ("kotlin-android")
+    id ("kotlin-kapt")
 }
 
 android {
@@ -47,5 +49,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     // added
     implementation("mysql:mysql-connector-java:8.0.33")
-
+    implementation ("androidx.room:room-runtime:2.6.0")
+    kapt ("androidx.room:room-compiler:2.6.0")
+    implementation("androidx.room:room-ktx:2.6.0")
 }
