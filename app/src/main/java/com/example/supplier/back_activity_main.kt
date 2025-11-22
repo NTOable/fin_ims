@@ -15,8 +15,9 @@ class back_activity_main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.front_activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        setContentView(R.layout.invent)
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.invent)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
@@ -24,9 +25,7 @@ class back_activity_main : AppCompatActivity() {
     }
 // added
 
-    fun conn {
-        val
-    }
+
 
     // each product will have its own row in their respective table (GPUs, Fans, SSDs, etc)
         // after connecting to MySQL, query to retrieve all items owned by User currently logged in
