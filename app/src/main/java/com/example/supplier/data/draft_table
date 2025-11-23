@@ -1,3 +1,6 @@
+Project
+Inventory Management System of Computer Equipment Mobile App W/ Barcode Scanner & MySQL Database Connection
+
 TABLES
 
     User
@@ -6,11 +9,11 @@ TABLES
     password
     company
     position
+    email
 
     Storage
     storage_id PK
-    user_id FK User.user_id
-    product_id Product.product_id
+    user_id FK UNIQUE User.user_id
 
     Product
     product_id PK
@@ -24,3 +27,5 @@ TABLES
     type_brand
     type_category
     type_specs
+
+    SELECT storage.storage_id, product.product_id, product.type_id, product_type.type_name, product_type.type_name, product_type.type_brand ... ON storage.user_id WHERE
