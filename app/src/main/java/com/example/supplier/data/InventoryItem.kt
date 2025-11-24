@@ -8,5 +8,6 @@ class InventoryItem (
     @PrimaryKey(autoGenerate= true) val id: Int= 0,
     val barcode: String,
     val name: String,
+    val brand: String,
     val dateAdded: Long= System.currentTimeMillis()
     )

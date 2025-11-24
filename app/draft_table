@@ -1,6 +1,13 @@
 Project
 Inventory Management System of Computer Equipment Mobile App W/ Barcode Scanner (Local Database)
 
+InventoryDatabase
+    creates database and table
+InventoryItem
+    defines the columns of the table created in InventoryDatabase
+InventoryDao
+    contains SQL queries
+
 TABLES
 
     User

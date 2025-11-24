@@ -26,6 +26,12 @@ class back_activity_main : AppCompatActivity() {
             val local_db = InventoryDatabase.getDatabase(this)
             val dao = local_db.inventoryDao()
 
+            val new_item = InventoryItem(
+                barcode = ,
+                name = ,
+                brand =
+            )
+
             // Redirect
             // buttons to go to each button page
             // shows their info, price, current stock
