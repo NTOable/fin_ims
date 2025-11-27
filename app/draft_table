@@ -7,32 +7,3 @@ InventoryItem
     defines the columns of the table created in InventoryDatabase
 InventoryDao
     contains SQL queries
-
-TABLES
-
-    User
-    user_id PK
-    username
-    password
-    company
-    position
-    email
-
-    Storage
-    storage_id PK
-    user_id FK UNIQUE User.user_id
-
-    Product
-    product_id PK
-    type_id FK Product_Type.type_id
-    storage_id FK Storage.storage_id
-    product_serial (for barcode) (main identifier)
-
-    Product_Type
-    type_id
-    type_name
-    type_brand
-    type_category
-    type_specs
-
-    SELECT storage.storage_id, product.product_id, product.type_id, product_type.type_name, product_type.type_name, product_type.type_brand ... ON storage.user_id WHERE

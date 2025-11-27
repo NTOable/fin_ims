@@ -1,4 +1,4 @@
-package com.example.supplier
+package com.example.supplier.ui
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -8,9 +8,11 @@ import androidx.core.view.WindowInsetsCompat
 // added
 import android.widget.*
 import android.content.Intent
+import com.example.supplier.R
 import com.example.supplier.data.InventoryDatabase
+import com.example.supplier.data.InventoryItem
 
-class back_activity_main : AppCompatActivity() {
+class Invent : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -20,38 +22,28 @@ class back_activity_main : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
 
             // added
-
-            val local_db = InventoryDatabase.getDatabase(this)
-            val dao = local_db.inventoryDao()
+            val db = InventoryDatabase.getDatabase(this)
+            val dao = db.inventoryDao()
 
             val new_item = InventoryItem(
-                barcode = ,
-                name = ,
-                brand =
+                barcode = "13451230",
+                name = "Test",
+                brand = "Intel"
             )
 
             // Redirect
             // buttons to go to each button page
             // shows their info, price, current stock
 
-            val prod_1 = findViewById<Button>(R.id.product_1)
+            val prod_1 = findViewById<ImageButton>(R.id.product_1)
 
             prod_1.setOnClickListener {
-                val intent = Intent(this, )
+                Toast.makeText(this, "Redirecting...", Toast.LENGTH_SHORT) .show()
+                val intent = Intent(this, InventoryListActivity::class.java)
                 startActivity(intent)
             }
-
-            // each product will have its own row in their respective table (GPUs, Fans, SSDs, etc)
-            // after connecting to MySQL, query to retrieve all items owned by User currently logged in
-            // take it via inventory_id (user_id), which will be a FK to every table under the column
-
-            // Tables: Users (user_id, inventory_id, ) Products (gpu_id, cpu_id, fan_id, ssd_id, ) GPU (gpu_id, product_id,
-            // Establish database connection first
-            // Finalize the tables, make sure it all makes sense
-            // Proceed to coding actual app functions
-
         }
     }
-}

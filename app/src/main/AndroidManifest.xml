@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Supplier">
         <activity
-            android:name=".back_activity_main"
+            android:name=".ui.Invent"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
