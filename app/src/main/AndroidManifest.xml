@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--            added -->
+        <activity
+            android:name=".ui.InventoryListActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
