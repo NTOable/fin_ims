@@ -29,7 +29,7 @@ class Invent : AppCompatActivity() {
             val dao = db.inventoryDao()
 
             val new_item = InventoryItem(
-                barcode = "13451230",
+                code = "13451230",
                 name = "Test",
                 brand = "Intel"
             )

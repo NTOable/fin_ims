@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 class InventoryItem (
 
     @PrimaryKey(autoGenerate= true) val id: Int= 0,
-    val barcode: String,
+    val code: String,
     val name: String,
     val brand: String,
     val dateAdded: Long= System.currentTimeMillis()

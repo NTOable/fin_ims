@@ -24,7 +24,7 @@ class InventoryListActivity: AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch{
             val db= InventoryDatabase.getDatabase(this@InventoryListActivity)
             val items= db.inventoryDao().getAllItems()
-            val names= items.map{ "${it.barcode} (${it.name})"}
+            val names= items.map{ "${it.code} (${it.name})"}
 
             withContext(Dispatchers.Main) {
                 listView.adapter= ArrayAdapter(
