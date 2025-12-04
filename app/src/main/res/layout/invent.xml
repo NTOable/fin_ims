@@ -63,5 +63,59 @@
                 />
         </FrameLayout>
     </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imagebuttoncontainer3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="@+id/imagebuttoncontainer2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="80dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_container">
+            <ImageButton
+                android:id="@+id/product_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/gpu_1"
+                android:scaleType="centerInside"
+                android:contentDescription="Gigabyte Radeon RX 9060 XT Gaming OC 8GB GDDR6"
+                />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imagebuttoncontainer4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toTopOf="@+id/imagebuttoncontainer3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="80dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_container">
+            <ImageButton
+                android:id="@+id/product_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/gpu_1"
+                android:scaleType="centerInside"
+                android:contentDescription="Gigabyte Radeon RX 9060 XT Gaming OC 8GB GDDR6"
+                />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
