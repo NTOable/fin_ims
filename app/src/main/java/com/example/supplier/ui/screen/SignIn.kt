@@ -1,4 +1,4 @@
-package com.example.dummyworkstation.ui.screen
+package com.example.supplier.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
@@ -9,7 +9,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.supplier.data.UserAppDatabase
+import com.example.supplier.pcbuilderapp.UserAppDatabase
 import kotlinx.coroutines.launch
 
 

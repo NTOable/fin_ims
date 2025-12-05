@@ -9,8 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.widget.*
 import android.content.Intent
 import com.example.supplier.R
-import com.example.supplier.data.InventoryDatabase
-import com.example.supplier.data.InventoryItem
+import com.example.supplier.pcbuilderapp.InventoryDatabase
 
 class Invent : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,25 +24,23 @@ class Invent : AppCompatActivity() {
         }
 
             // added
-            val db = InventoryDatabase.getDatabase(this)
-            val dao = db.inventoryDao()
+        val db = InventoryDatabase.getDatabase(this)
+        val dao = db.inventoryDao()
 
-            val new_item = InventoryItem(
-                code = "13451230",
-                name = "Test",
-                brand = "Intel"
-            )
+        // Buttons
+        val viewInventory = findViewById<Button>(R.id.btn_view_inventory)
+        val addItem = findViewById<Button>(R.id.btn_add_item)
 
-            // Redirect
-            // buttons to go to each button page
-            // shows their info, price, current stock
+        // Go to list screen
+        viewInventory.setOnClickListener {
+            val intent = Intent(this, InventoryListActivity::class.java)
+            startActivity(intent)
+        }
 
-            val prod_1 = findViewById<ImageButton>(R.id.product_1)
-
-            prod_1.setOnClickListener {
-                Toast.makeText(this, "Redirecting...", Toast.LENGTH_SHORT) .show()
-                val intent = Intent(this, InventoryListActivity::class.java)
-                startActivity(intent)
-            }
+        // Go to Add Item screen
+        addItem.setOnClickListener {
+            val intent = Intent(this, AddItemActivity::class.java)
+            startActivity(intent)
+        }
         }
     }

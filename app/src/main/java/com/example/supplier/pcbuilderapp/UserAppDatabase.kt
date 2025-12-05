@@ -1,4 +1,4 @@
-package com.example.supplier.data
+package com.example.supplier.pcbuilderapp
 
 import android.content.Context
 import androidx.room.Database

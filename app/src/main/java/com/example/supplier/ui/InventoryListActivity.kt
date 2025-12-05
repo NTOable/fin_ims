@@ -6,7 +6,7 @@ import kotlinx.coroutines.*
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import com.example.supplier.R
-import com.example.supplier.data.InventoryDatabase
+import com.example.supplier.pcbuilderapp.InventoryDatabase
 
 
 class InventoryListActivity: AppCompatActivity() {

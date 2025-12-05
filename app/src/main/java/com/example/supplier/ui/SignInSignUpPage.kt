@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
-import com.example.dummyworkstation.ui.screen.SignIn
-import com.example.dummyworkstation.ui.screen.SignUp
+import com.example.supplier.ui.screen.SignIn
+import com.example.supplier.ui.screen.SignUp
 
 
 class SignInSignUpPage : ComponentActivity() {

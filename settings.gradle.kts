@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "supplier"
+rootProject.name = "PCBuilderApp"
 include(":app")
  
