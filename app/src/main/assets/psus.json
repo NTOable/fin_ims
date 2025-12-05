@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Corsair RM850x",
+    "wattage": 850,
+    "efficiencyRating": "80+ Gold",
+    "modularity": "Full",
+    "size": "ATX",
+    "pcieConnectors": 4,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/0840006667506_800x.jpg?v=1725160941"
+  },
+  {
+    "name": "Seasonic Focus GX-750",
+    "wattage": 750,
+    "efficiencyRating": "80+ Gold",
+    "modularity": "Semi",
+    "size": "ATX",
+    "pcieConnectors": 3,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/254sdf56sd4fsad_800x.jpg?v=1759481598"
+  },
+  {
+    "name": "Seasonic Prime TX-1000",
+    "wattage": 1000,
+    "efficiencyRating": "80+ Titanium",
+    "modularity": "Full",
+    "size": "ATX",
+    "pcieConnectors": 4,
+    "imageUrl": "https://easypc.com.ph/cdn/shop/products/Seasonic_Prime_SSR-1000TR_1000_Watts-c_2048x.jpg?v=1701237158"
+  },
+  {
+    "name": "Corsair RM750x",
+    "wattage": 750,
+    "efficiencyRating": "80+ Gold",
+    "modularity": "Full",
+    "size": "ATX",
+    "pcieConnectors": 2,
+    "imageUrl": "https://m.media-amazon.com/images/I/81+Ng0RFfIL._AC_UF350,350_QL80_.jpg"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "NZXT H7 Flow",
+    "formFactor": "ATX",
+    "maxGpuLengthMm": 360,
+    "maxCoolingHeightMm": 170,
+    "supportedPsuSize": "ATX",
+    "supportedFanSizes": [120, 140],
+    "maxStorageBaySizeMm": 3.5,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/1654199886-case_h7_flow_wb_hero_with-system_with-frontlight_pl_png_800x.jpg?v=1676905959"
+  },
+  {
+    "name": "Cooler Master NR200",
+    "formFactor": "MiniITX",
+    "maxGpuLengthMm": 330,
+    "maxCoolingHeightMm": 155,
+    "supportedPsuSize": "SFX",
+    "supportedFanSizes": [92, 120],
+    "maxStorageBaySizeMm": 2.5,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/nr200-atx-psu-bracket-gallery-7-image_68e66034-5785-4ea4-b820-e2becd8719e3_800x.jpg?v=1690879962"
+  },
+  {
+    "name": "Corsair iCUE 5000X RGB",
+    "formFactor": "ATX",
+    "maxGpuLengthMm": 400,
+    "maxCoolingHeightMm": 170,
+    "supportedPsuSize": "ATX",
+    "supportedFanSizes": [120, 140],
+    "maxStorageBaySizeMm": 3.5,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/base-5000x-Gallery-5000X-RGB-BLACK-001_500x.jpg?v=1679475960"
+  },
+  {
+    "name": "NZXT H510",
+    "formFactor": "ATX",
+    "maxGpuLengthMm": 381,
+    "maxCoolingHeightMm": 165,
+    "supportedPsuSize": "ATX",
+    "supportedFanSizes": [120],
+    "maxStorageBaySizeMm": 2.5,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/1615558657-h510-elite-black-black-kraken-x-system-purple-lighting_500x.jpg?v=1676878461"
+  },
+  {
+    "name": "Cooler Master Q300L",
+    "formFactor": "Micro-ATX",
+    "maxGpuLengthMm": 360,
+    "maxCoolingHeightMm": 159,
+    "supportedPsuSize": "ATX",
+    "supportedFanSizes": [120],
+    "maxStorageBaySizeMm": 2.5,
+    "imageUrl": "https://www.ubuy.com.ph/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFJOUVmMGZPSUwuX0FDX1NMMTUwMF8uanBn.jpg"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AMD Ryzen 9 9950X3D",
+    "cores": 16,
+    "threads": 32,
+    "baseClockGHz": 4.2,
+    "boostClockGHz": 5.7,
+    "tdpWatt": 170,
+    "socket": "AM5",
+    "supportedMemoryType": "DDR5",
+    "maxMemoryChannels": 2,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/ryzen9.1_800x.jpg?v=1760517719"
+  },
+  {
+    "name": "AMD Ryzen 7 7800X3D",
+    "cores": 8,
+    "threads": 16,
+    "baseClockGHz": 4.0,
+    "boostClockGHz": 5.0,
+    "tdpWatt": 120,
+    "socket": "AM5",
+    "supportedMemoryType": "DDR5",
+    "maxMemoryChannels": 2,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/zvbsdfgns_800x.jpg?v=1760513820"
+  },
+  {
+    "name": "Intel Core i9-14900K",
+    "cores": 24,
+    "threads": 32,
+    "baseClockGHz": 3.2,
+    "boostClockGHz": 6.0,
+    "tdpWatt": 125,
+    "socket": "LGA1700",
+    "supportedMemoryType": "DDR5",
+    "maxMemoryChannels": 2,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/xsfgnsfhms_800x.jpg?v=1760516372"
+  },
+  {
+    "name": "Intel Core i5-12400F",
+    "cores": 6,
+    "threads": 12,
+    "baseClockGHz": 2.5,
+    "boostClockGHz": 4.4,
+    "tdpWatt": 65,
+    "socket": "LGA1700",
+    "supportedMemoryType": "DDR4/DDR5",
+    "maxMemoryChannels": 2,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/intelsdfdxgns_500x.jpg?v=1760513463"
+  }
+]

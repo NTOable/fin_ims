@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Elgato Capture Card HD60 X",
+    "interfaceType": "PCIe",
+    "requiresSlot": true,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/base-elgato-hd60x-Gallery-HD60-X-Device-Shot-01_800x.jpg?v=1676867484"
+  },
+  {
+    "name": "NZXT Internal USB Hub",
+    "interfaceType": "USB",
+    "requiresSlot": false,
+    "imageUrl": "https://pinklehub.com/cdn/shop/files/111_1ead5bb8-1b73-43a2-be35-edf8ef2599f9.jpg?v=1693894469"
+  },
+  {
+    "name": "TP-Link TX201 PCIe Network Card",
+    "interfaceType": "PCIe",
+    "requiresSlot": true,
+    "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/port-7.webp"
+  },
+  {
+    "name": "Orico USB 3.0 Expansion Hub",
+    "interfaceType": "USB",
+    "requiresSlot": false,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/W5PH4-U3-V1-BK-01_500x.jpg?v=1676858521"
+  },
+  {
+    "name": "NZXT RGB Lighting Controller",
+    "interfaceType": "USB",
+    "requiresSlot": false,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/1681556363-f120-rgb-core-triple-pack-with-rgb-controller-left-side-angle-view-black_1_500x.jpg?v=1684029268"
+  }
+]

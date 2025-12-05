@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Samsung 990 Pro 2TB",
+    "capacityGb": 2000,
+    "type": "NVMe",
+    "sizeMm": 80,
+    "interfaceType": "M.2",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/DXXXXXXXXXXXXXXXX_800x.jpg?v=1705735991"
+  },
+  {
+    "name": "WD Blue 1TB",
+    "capacityGb": 1000,
+    "type": "HDD",
+    "sizeMm": 3.5,
+    "interfaceType": "SATA",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/wd-blue-pc-desktop-hard-drive-1tb.png.wdthumb.1280.1280_800x.jpg?v=1676874773"
+  },
+  {
+    "name": "Samsung 990 Pro 2TB NVMe SSD",
+    "capacityGb": 2000,
+    "type": "NVMe SSD",
+    "sizeMm": 80,
+    "interfaceType": "PCIe 4.0",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/DXXXXXXXXXXXXXXXX_500x.jpg?v=1705735991"
+  },
+  {
+    "name": "Crucial MX500 1TB SATA SSD",
+    "capacityGb": 1000,
+    "type": "SATA SSD",
+    "sizeMm": 2.5,
+    "interfaceType": "SATA",
+    "imageUrl": "https://dynaquestpc.com/cdn/shop/products/CrucialMX500500GB3DNANDSATA2.5InchInternalSSD_upto560MBs-CT500MX500SSD1_efee491b-e9b6-43ca-9146-510e9df44116.jpg?v=1658975053&width=500"
+  },
+  {
+    "name": "Seagate Barracuda 2TB HDD",
+    "capacityGb": 2000,
+    "type": "HDD",
+    "sizeMm": 3.5,
+    "interfaceType": "SATA",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/bdfbdfdbf_500x.jpg?v=1719541858"
+  }
+]

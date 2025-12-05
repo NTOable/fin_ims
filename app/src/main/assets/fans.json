@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Noctua NF-A12x25",
+    "sizeMm": 120,
+    "rpm": 2000,
+    "rgbSupport": false,
+    "imageUrl": "https://dynaquestpc.com/cdn/shop/products/NoctuaNF-A12x25PWMchromax.Black.swap_PremiumQuietFan_4-Pin120mm_Black.jpg?v=1668481286&width=500"
+  },
+  {
+    "name": "Corsair LL120 RGB",
+    "sizeMm": 120,
+    "rpm": 1500,
+    "rgbSupport": true,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/LL120_RGB_01_1_800x.jpg?v=1692259795"
+  },
+  {
+    "name": "Arctic F12",
+    "sizeMm": 120,
+    "rpm": 1350,
+    "rgbSupport": false,
+    "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/71SMrJGn1gL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "Cooler Master SickleFlow 92",
+    "sizeMm": 92,
+    "rpm": 2200,
+    "rgbSupport": false,
+    "imageUrl": "https://technicstore.net/wp-content/uploads/2020/10/SICKLEFLOW-92-1.jpg"
+  },
+  {
+    "name": "Thermaltake Riing Quad 120 RGB",
+    "sizeMm": 120,
+    "rpm": 1500,
+    "rgbSupport": true,
+    "imageUrl": "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/thermaltake_cl_f088_pl12sw_b_riing_quad_12_radiator_1595599534_1573462.jpg"
+  }
+]

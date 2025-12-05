@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ASUS ROG Strix X670E-E",
+    "socket": "AM5",
+    "formFactor": "ATX",
+    "ramType": "DDR5",
+    "maxMemoryGb": 128,
+    "ramSlots": 4,
+    "supportsPcieVersion": 5,
+    "storageInterfaces": ["NVMe", "SATA"],
+    "supportedFanHeaders": 6,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/fhgtu8978t_800x.jpg?v=1689036867"
+  },
+  {
+    "name": "Gigabyte Z790 Aorus Elite",
+    "socket": "LGA1700",
+    "formFactor": "ATX",
+    "ramType": "DDR5",
+    "maxMemoryGb": 128,
+    "ramSlots": 4,
+    "supportsPcieVersion": 5,
+    "storageInterfaces": ["NVMe", "SATA"],
+    "supportedFanHeaders": 5,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/1000_8a648c64-efde-4523-8338-5b812eb29991_800x.jpg?v=1697794291"
+  },
+  {
+    "name": "MSI B550 Tomahawk",
+    "socket": "AM4",
+    "formFactor": "ATX",
+    "ramType": "DDR4",
+    "maxMemoryGb": 128,
+    "ramSlots": 4,
+    "supportsPcieVersion": 4,
+    "storageInterfaces": ["NVMe", "SATA"],
+    "supportedFanHeaders": 4,
+    "supportedMemoryType": "DDR4",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/1024_56_500x.jpg?v=1676878243"
+  },
+  {
+    "name": "ASRock B660M Pro RS",
+    "socket": "LGA1700",
+    "formFactor": "Micro-ATX",
+    "ramType": "DDR4",
+    "maxMemoryGb": 64,
+    "ramSlots": 2,
+    "supportsPcieVersion": 4,
+    "storageInterfaces": ["NVMe", "SATA"],
+    "supportedFanHeaders": 3,
+    "supportedMemoryType": "DDR4",
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/12das3g4s56ga_500x.jpg?v=1760249169"
+  },
+  {
+    "name": "Biostar H610MHP",
+    "socket": "LGA1700",
+    "formFactor": "Micro-ATX",
+    "ramType": "DDR4",
+    "maxMemoryGb": 64,
+    "ramSlots": 2,
+    "supportsPcieVersion": 4,
+    "storageInterfaces": ["SATA"],
+    "supportedFanHeaders": 2,
+    "supportedMemoryType": "DDR4",
+    "imageUrl": "https://easypc.com.ph/cdn/shop/products/Biostar_H610MH_Socket_LGA_1700_Ddr4_Motherboard-b_2048x.jpg?v=1702874025"
+  }
+]

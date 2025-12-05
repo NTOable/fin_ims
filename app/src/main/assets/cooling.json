@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Noctua NH-D15",
+    "type": "Air",
+    "heightMm": 165,
+    "tdpSupportWatt": 250,
+    "supportedSockets": ["AM5", "LGA1700"],
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/nh_d15_chromax_black_2_2_800x.jpg?v=1679367637"
+  },
+  {
+    "name": "Corsair iCUE H150i",
+    "type": "Liquid",
+    "heightMm": 0,
+    "tdpSupportWatt": 300,
+    "supportedSockets": ["AM5", "LGA1700"],
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/0840006648147_800x.jpg?v=1729326499"
+  },
+  {
+    "name": "DeepCool Gammaxx 400 V2",
+    "type": "Air",
+    "heightMm": 155,
+    "tdpSupportWatt": 150,
+    "supportedSockets": ["AM4", "LGA1151", "LGA1200"],
+    "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-18-600x750.webp"
+  },
+  {
+    "name": "Arctic Liquid Freezer II 240",
+    "type": "Liquid",
+    "heightMm": 38,
+    "tdpSupportWatt": 250,
+    "supportedSockets": ["AM4", "AM5", "LGA1700"],
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/liquid-freezer-ii-240-argb-g00_Badge_500x.jpg?v=1740745812"
+  }
+]

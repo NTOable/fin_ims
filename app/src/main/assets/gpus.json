@@ -1,0 +1,47 @@
+[
+  {
+    "name": "NVIDIA RTX 4090",
+    "vramGb": 24,
+    "powerDrawWatt": 450,
+    "lengthMm": 304,
+    "requiredPcieVersion": 4,
+    "requiredPcieConnectors": 3,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/EGRRGSZDFG_800x.jpg?v=1708078164"
+  },
+  {
+    "name": "AMD Radeon RX 7900 XTX",
+    "vramGb": 24,
+    "powerDrawWatt": 355,
+    "lengthMm": 287,
+    "requiredPcieVersion": 4,
+    "requiredPcieConnectors": 2,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/products/7_1671543089_800x.jpg?v=1676917526"
+  },
+  {
+    "name": "Intel Arc A770",
+    "vramGb": 16,
+    "powerDrawWatt": 225,
+    "lengthMm": 267,
+    "requiredPcieVersion": 4,
+    "requiredPcieConnectors": 2,
+    "imageUrl": "https://m.media-amazon.com/images/I/71Dqh5iF+AL.jpg"
+  },
+  {
+    "name": "AMD Radeon RX 7600",
+    "vramGb": 8,
+    "powerDrawWatt": 165,
+    "lengthMm": 230,
+    "requiredPcieVersion": 4,
+    "requiredPcieConnectors": 1,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/xvcxcvc.jpg?v=1759736645"
+  },
+  {
+    "name": "NVIDIA GTX 1660 Super",
+    "vramGb": 6,
+    "powerDrawWatt": 125,
+    "lengthMm": 223,
+    "requiredPcieVersion": 3,
+    "requiredPcieConnectors": 1,
+    "imageUrl": "https://ecommerce.datablitz.com.ph/cdn/shop/files/et435twefe.jpg?v=1690800626"
+  }
+]
