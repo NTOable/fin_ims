@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Supplier">
         <activity
-            android:name=".ui.Invent"
+            android:name="com.example.supplier.ui.Invent"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
         </activity>
         <!--            added -->
         <activity
-            android:name=".ui.InventoryListActivity"
+            android:name="com.example.supplier.ui.InventoryListActivity"
             android:exported="true"/>
     </application>
 
